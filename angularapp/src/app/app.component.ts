@@ -16,6 +16,8 @@ export class AppComponent {
   waterLocation = "";
   selectedFilters: WaterLogFilters = {}
 
+  resultCount = "";
+
   waterLogs: WaterLog[] = [];
 
   constructor(http: HttpClient, private readonly _appService: AppService) {
@@ -42,6 +44,7 @@ export class AppComponent {
   setWaterData(data: WaterLog[]) {
 
     this.waterLogs = data;
+    this.resultCount = data.length.toString();
 
   }
 }

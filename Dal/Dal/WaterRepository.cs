@@ -21,7 +21,10 @@ namespace Dal
         }
         public List<WaterLog> GetAllWaterLogs()
         {
-            return _db.WaterLog.ToList();
+
+
+
+            return _db.WaterLog.Take(50).ToList();
         }
 
         public List<WaterLog> GetWaterLog(int? id, string featureName, string locationDescription)
