@@ -12,7 +12,7 @@ namespace Dal
     {
         public List<WaterLog> GetAllWaterLogs();
 
-        public WaterLog GetWaterLog(int id, string featureName, string locationDescription);
+        public List<WaterLog> GetWaterLog(int? id, string featureName, string locationDescription);
 
     }
 }

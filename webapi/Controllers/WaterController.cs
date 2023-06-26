@@ -1,10 +1,12 @@
+using Azure.Core;
 using Bll;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Diagnostics;
 using WaterPOC.Repository;
 using WaterPOC.Repository.Models;
 
-namespace WebApplicationT.Controllers
+namespace webapi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -36,18 +38,21 @@ namespace WebApplicationT.Controllers
         }//put ok
 
         //normally, type not specified, 
-        [HttpGet("getWater/{id:int}/")]
+        
+        //[HttpGet("getWater/{id:int}/")]
         //[HttpGet("getWater/{featureName}")]
         //[HttpGet("getWater/{locationDescription}")]
         //[HttpGet("getWater/{id:int}/{featureName}")]
         //[HttpGet("getWater/{id:int}/{locationDescription}")]
         //[HttpGet("getWater/{featureName}/{locationDescription}")]
-       // [HttpGet("getWater/{id:int}/{featureName}/{locationDescription}")]//understand annotations more, pass route in httpget --DONE
+        [HttpGet("getWater")]//understand annotations more, pass route in httpget --DONE
         //pass parameter not as url parameters, rest--DONE
-        public IActionResult GetWaterLog(int id, string? featureName=null, string? locationDescription = null)
+        public IActionResult GetWaterLog([FromQuery] GetWaterLogQueryObject request)
         {
-
-            var feature =  _bll.GetWaterLog(id, featureName, locationDescription);
+            Debug.WriteLine("cid is:" + request.id);
+            Debug.WriteLine("cfeature is:" + request.featureName);
+            Debug.WriteLine("cloca is:" + request.locationDescription);
+            var feature =  _bll.GetWaterLog(request.id, request.featureName, request.locationDescription);
 
             if (feature == null)
             {
@@ -58,7 +63,12 @@ namespace WebApplicationT.Controllers
         }
 
 
-
+        public class GetWaterLogQueryObject
+        {
+            public int? id { get; set; }
+            public string? featureName { get; set; }
+            public string? locationDescription { get; set; }
+        }
 
         //always return a response
 

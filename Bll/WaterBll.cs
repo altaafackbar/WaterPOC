@@ -35,9 +35,9 @@ namespace Bll
             return _dal.GetAllWaterLogs();
         }
 
-        public WaterLog GetWaterLog(int id, string featureName, string locationDescription)
+        public List<WaterLog> GetWaterLog(int? id, string featureName, string locationDescription)
         {
-            WaterLog result = _dal.GetWaterLog(id, featureName, locationDescription);
+            List<WaterLog> result = _dal.GetWaterLog(id, featureName, locationDescription);
 
 
             return result;

@@ -26,7 +26,7 @@ namespace Bll
             return _waterBll.GetAllWaterLogs();
         }
 
-        public WaterLog GetWaterLog(int id, string featureName, string locationDescription)
+        public List<WaterLog> GetWaterLog(int? id, string featureName, string locationDescription)
         {
             return _waterBll.GetWaterLog(id, featureName, locationDescription);
         }

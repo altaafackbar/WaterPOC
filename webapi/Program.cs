@@ -13,6 +13,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(
+      "Any",
+      cors =>
+      {
+          cors.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+      });
+});
+
 builder.Services.AddScoped<IBllFacade, BllFacade>();
 builder.Services.AddScoped<IWaterBll, WaterBll>();
 builder.Services.AddScoped<IWaterRepository, WaterRepository>();
@@ -25,6 +35,7 @@ builder.Services.AddDbContext<WaterDbContext>(option =>
 option.UseSqlServer(DatabasePath));
 
 var app = builder.Build();
+app.UseCors("Any");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

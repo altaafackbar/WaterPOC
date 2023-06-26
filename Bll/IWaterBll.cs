@@ -12,7 +12,7 @@ namespace Bll
     {
         List<WaterLog>? GetAllWaterLogs();
 
-        WaterLog GetWaterLog(int id, string featureName, string locationDescription);
+        List<WaterLog> GetWaterLog(int? id, string featureName, string locationDescription);
 
     }
 }

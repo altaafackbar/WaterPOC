@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using WaterPOC.Repository;
 using WaterPOC.Repository.Models;
+using System.Linq;
 
 
 namespace Dal
@@ -23,9 +24,10 @@ namespace Dal
             return _db.WaterLog.ToList();
         }
 
-        public WaterLog GetWaterLog(int id, string featureName, string locationDescription)
+        public List<WaterLog> GetWaterLog(int? id, string featureName, string locationDescription)
         {
-            WaterLog p = new WaterLog();
+            List<WaterLog> result = new List<WaterLog>();
+            var results = _db.WaterLog.AsQueryable();
 
             Debug.WriteLine("id is:" + id);
             Debug.WriteLine("feature is:"+featureName);
@@ -33,12 +35,18 @@ namespace Dal
 
 
             if (id != null) {
-                p = _db.WaterLog.FirstOrDefault(x => x.Id == id);
+                //p = _db.WaterLog.FirstOrDefault(x => x.Id == id);
+                results = results.Where(b => b.Id.ToString().StartsWith(id.ToString()))
+        ;
             }
-            
+            if (!string.IsNullOrEmpty(featureName))
+                results = results.Where(x => x.FeatureName.Contains(featureName));
+            if (!string.IsNullOrEmpty(locationDescription))
+                results = results.Where(x => x.LocationDescription.Contains(locationDescription));
 
 
-            return p;
+
+            return results.ToList();
         }
 
 

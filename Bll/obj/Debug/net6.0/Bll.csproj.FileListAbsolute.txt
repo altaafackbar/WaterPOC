@@ -1,0 +1,15 @@
+C:\Users\aackbar\source\repos\WaterPOC\Bll\bin\Debug\net6.0\Bll.deps.json
+C:\Users\aackbar\source\repos\WaterPOC\Bll\bin\Debug\net6.0\Bll.dll
+C:\Users\aackbar\source\repos\WaterPOC\Bll\bin\Debug\net6.0\Bll.pdb
+C:\Users\aackbar\source\repos\WaterPOC\Bll\bin\Debug\net6.0\Dal.dll
+C:\Users\aackbar\source\repos\WaterPOC\Bll\bin\Debug\net6.0\Dal.pdb
+C:\Users\aackbar\source\repos\WaterPOC\Bll\obj\Debug\net6.0\Bll.csproj.AssemblyReference.cache
+C:\Users\aackbar\source\repos\WaterPOC\Bll\obj\Debug\net6.0\Bll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aackbar\source\repos\WaterPOC\Bll\obj\Debug\net6.0\Bll.AssemblyInfoInputs.cache
+C:\Users\aackbar\source\repos\WaterPOC\Bll\obj\Debug\net6.0\Bll.AssemblyInfo.cs
+C:\Users\aackbar\source\repos\WaterPOC\Bll\obj\Debug\net6.0\Bll.csproj.CoreCompileInputs.cache
+C:\Users\aackbar\source\repos\WaterPOC\Bll\obj\Debug\net6.0\Bll.csproj.CopyComplete
+C:\Users\aackbar\source\repos\WaterPOC\Bll\obj\Debug\net6.0\Bll.dll
+C:\Users\aackbar\source\repos\WaterPOC\Bll\obj\Debug\net6.0\refint\Bll.dll
+C:\Users\aackbar\source\repos\WaterPOC\Bll\obj\Debug\net6.0\Bll.pdb
+C:\Users\aackbar\source\repos\WaterPOC\Bll\obj\Debug\net6.0\ref\Bll.dll
