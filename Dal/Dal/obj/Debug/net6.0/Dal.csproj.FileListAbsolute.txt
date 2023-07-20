@@ -12,3 +12,17 @@ C:\Users\aackbar\source\repos\WaterPOC\Dal\Dal\obj\Debug\net6.0\refint\Dal.dll
 C:\Users\aackbar\source\repos\WaterPOC\Dal\Dal\obj\Debug\net6.0\Dal.pdb
 C:\Users\aackbar\source\repos\WaterPOC\Dal\Dal\obj\Debug\net6.0\Dal.genruntimeconfig.cache
 C:\Users\aackbar\source\repos\WaterPOC\Dal\Dal\obj\Debug\net6.0\ref\Dal.dll
+C:\Users\altaa\OneDrive\Documents\GitHub\WaterPOC\Dal\Dal\bin\Debug\net6.0\Dal.deps.json
+C:\Users\altaa\OneDrive\Documents\GitHub\WaterPOC\Dal\Dal\bin\Debug\net6.0\Dal.runtimeconfig.json
+C:\Users\altaa\OneDrive\Documents\GitHub\WaterPOC\Dal\Dal\bin\Debug\net6.0\Dal.dll
+C:\Users\altaa\OneDrive\Documents\GitHub\WaterPOC\Dal\Dal\bin\Debug\net6.0\Dal.pdb
+C:\Users\altaa\OneDrive\Documents\GitHub\WaterPOC\Dal\Dal\obj\Debug\net6.0\Dal.csproj.AssemblyReference.cache
+C:\Users\altaa\OneDrive\Documents\GitHub\WaterPOC\Dal\Dal\obj\Debug\net6.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\altaa\OneDrive\Documents\GitHub\WaterPOC\Dal\Dal\obj\Debug\net6.0\Dal.AssemblyInfoInputs.cache
+C:\Users\altaa\OneDrive\Documents\GitHub\WaterPOC\Dal\Dal\obj\Debug\net6.0\Dal.AssemblyInfo.cs
+C:\Users\altaa\OneDrive\Documents\GitHub\WaterPOC\Dal\Dal\obj\Debug\net6.0\Dal.csproj.CoreCompileInputs.cache
+C:\Users\altaa\OneDrive\Documents\GitHub\WaterPOC\Dal\Dal\obj\Debug\net6.0\Dal.dll
+C:\Users\altaa\OneDrive\Documents\GitHub\WaterPOC\Dal\Dal\obj\Debug\net6.0\refint\Dal.dll
+C:\Users\altaa\OneDrive\Documents\GitHub\WaterPOC\Dal\Dal\obj\Debug\net6.0\Dal.pdb
+C:\Users\altaa\OneDrive\Documents\GitHub\WaterPOC\Dal\Dal\obj\Debug\net6.0\Dal.genruntimeconfig.cache
+C:\Users\altaa\OneDrive\Documents\GitHub\WaterPOC\Dal\Dal\obj\Debug\net6.0\ref\Dal.dll

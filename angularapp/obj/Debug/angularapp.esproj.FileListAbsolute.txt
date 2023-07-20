@@ -1,2 +1,4 @@
 C:\Users\aackbar\source\repos\WaterPOC\angularapp\obj\Debug\angularapp.esproj.SuggestedBindingRedirects.cache
 C:\Users\aackbar\source\repos\WaterPOC\angularapp\obj\Debug\angularapp.esproj.CoreCompileInputs.cache
+C:\Users\altaa\OneDrive\Documents\GitHub\WaterPOC\angularapp\obj\Debug\angularapp.esproj.SuggestedBindingRedirects.cache
+C:\Users\altaa\OneDrive\Documents\GitHub\WaterPOC\angularapp\obj\Debug\angularapp.esproj.CoreCompileInputs.cache
