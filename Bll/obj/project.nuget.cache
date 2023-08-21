@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G8/lSMns1HQibDQW1YuOQPN2MTkBQjqOEbvFfcd90BiFjk9RS+pPIOkPxZiCN6H3ComHrfAzf29u30q2LZG1QQ==",
+  "dgSpecHash": "FwhQ/jVivaZbKsR781RcAXwAlXPhKahlK2lytGGdNsLwxUw/cU2+0ZLg2mjhMdEoL34OltTzeoMzXMAheiBF1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\Bll\\Bll.csproj",
+  "projectFilePath": "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\Bll\\Bll.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\altaa\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\altaa\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

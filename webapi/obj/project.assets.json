@@ -6466,11 +6466,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\webapi\\webapi.csproj",
+      "projectUniqueName": "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\webapi\\webapi.csproj",
       "projectName": "webapi",
-      "projectPath": "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\webapi\\webapi.csproj",
+      "projectPath": "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\webapi\\webapi.csproj",
       "packagesPath": "C:\\Users\\altaa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\webapi\\obj\\",
+      "outputPath": "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\webapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\altaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6488,8 +6488,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\Bll\\Bll.csproj": {
-              "projectPath": "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\Bll\\Bll.csproj"
+            "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\Bll\\Bll.csproj": {
+              "projectPath": "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\Bll\\Bll.csproj"
             }
           }
         }

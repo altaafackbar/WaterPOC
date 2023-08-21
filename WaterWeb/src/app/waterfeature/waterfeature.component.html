@@ -1,0 +1,182 @@
+<div class="featureSearch">
+  <h1 id="tableLabel">EEVEE 3</h1>
+
+
+
+  <div class="search-boxes">
+    <div class="search">
+      <div class="searchField">
+        <label>Id:</label>
+        <input [(ngModel)]="waterId" />
+      </div>
+      <div class="searchField">
+        <label>Feature:</label>
+        <input [(ngModel)]="waterFeature" />
+      </div>
+      <div class="searchField">
+        <label>Location Description:</label>
+        <input [(ngModel)]="waterLocation" />
+      </div>
+
+    </div>
+
+    <div class="search">
+      <div class="searchField">
+        <label>Lab Sample ID:</label>
+        <input />
+      </div>
+      <div class="searchField">
+        <label>Analyte Type:</label>
+        <select id="cars" name="cars">
+          <option value="volvo">select</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div>
+
+      <div class="searchField">
+        <label>Analyte Group:</label>
+        <select id="cars" name="cars">
+          <option value="volvo">select</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div>
+      <div class="searchField">
+        <label>Sampled Date From:</label>
+        <input type="date">
+      </div>
+      <div class="searchField">
+        <label>Sampled Date To:</label>
+        <input type="date">
+      </div>
+
+    </div>
+
+    <div class="search">
+      <div class="searchField">
+        <label>Water System:</label>
+        <select id="cars" name="cars">
+          <option value="volvo">select</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div>
+
+      <div class="searchField">
+        <label>Water System Type:</label>
+        <select id="cars" name="cars">
+          <option value="volvo">select</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div>
+
+      <div class="searchField">
+        <label>Building Type:</label>
+        <select id="cars" name="cars">
+          <option value="volvo">select</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div>
+
+      <div class="searchField">
+        <label>Sample Point Type:</label>
+        <select id="cars" name="cars">
+          <option value="volvo">select</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div>
+
+    </div>
+    <span (click)="getWaterLogs()" class="search-button">Search</span>
+  </div>
+
+
+
+  <div>
+    <div>Result Count: {{resultCount}}</div>
+    <div class="table-container mat-elevation-z8">
+
+      <kendo-grid [pageSize]="pageSize"
+                  [skip]="skip"
+                  [pageable]="true"
+                  (pageChange)="pageChange($event)"
+                  [sortable]="true"
+                  [sort]="sortDescriptor"
+                  (sortChange)="handleSortChange($event)"
+                  [height]="400"
+                  [kendoGridBinding]="waterLogs"
+                  [groupable]="true">
+        <ng-template kendoGridToolbarTemplate>
+          <button type="button" kendoGridExcelCommand>
+            Export to Excel
+          </button>
+          <button kendoGridPDFCommand>
+            Export to PDF
+          </button>
+          <button kendoButton *ngIf="!opened" (click)="toggle(true)">Open Map</button>
+        </ng-template>
+
+        <kendo-grid-column field="featureName" title="Feature Name"></kendo-grid-column>
+        <kendo-grid-column field="id" title="ID"></kendo-grid-column>
+        <kendo-grid-column field="locationDescription" title="Location Description" ></kendo-grid-column>
+        <!-- ... -->
+
+        <kendo-grid-pdf fileName="Products.pdf"
+                        [delay]="1000"
+                        [allPages]="true"
+                        paperSize="A4"
+                        [repeatHeaders]="true"
+                        [landscape]="true">
+        </kendo-grid-pdf>
+        <kendo-grid-excel fileName="Products.xlsx"></kendo-grid-excel>
+      </kendo-grid>
+
+
+
+      <kendo-window *ngIf="opened" (close)="toggle(false)" [(width)]="windowWidth"
+                    [(height)]="windowHeight"
+                    [(top)]="windowTop"
+                    [(left)]="windowLeft">
+        <div style="text-align: center; margin: 30px;">
+          <h4>Enter your e-mail below to unlock.</h4>
+          <p>
+            <input kendoTextBox
+                   placeholder="Your e-mail here"
+                   style="width: 300px;" />
+          </p>
+          <p>
+            <button kendoButton
+                    themeColor="primary"
+                    style="width: 300px;"
+                    (click)="toggle(false)">
+              GET MY $10 OFF
+            </button>
+          </p>
+          <button kendoButton fillMode="flat" (click)="toggle(false)">
+            No thanks
+          </button>
+        </div>
+      </kendo-window>
+
+
+    </div>
+
+
+
+
+
+
+
+  </div>
+
+

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\Bll\\Bll.csproj": {}
+    "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\Bll\\Bll.csproj": {}
   },
   "projects": {
-    "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\Bll\\Bll.csproj": {
+    "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\Bll\\Bll.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\Bll\\Bll.csproj",
+        "projectUniqueName": "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\Bll\\Bll.csproj",
         "projectName": "Bll",
-        "projectPath": "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\Bll\\Bll.csproj",
+        "projectPath": "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\Bll\\Bll.csproj",
         "packagesPath": "C:\\Users\\altaa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\Bll\\obj\\",
+        "outputPath": "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\Bll\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\altaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\Dal\\Dal\\Dal.csproj": {
-                "projectPath": "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\Dal\\Dal\\Dal.csproj"
+              "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\Dal\\Dal\\Dal.csproj": {
+                "projectPath": "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\Dal\\Dal\\Dal.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\Dal\\Dal\\Dal.csproj": {
+    "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\Dal\\Dal\\Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\Dal\\Dal\\Dal.csproj",
+        "projectUniqueName": "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\Dal\\Dal\\Dal.csproj",
         "projectName": "Dal",
-        "projectPath": "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\Dal\\Dal\\Dal.csproj",
+        "projectPath": "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\Dal\\Dal\\Dal.csproj",
         "packagesPath": "C:\\Users\\altaa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\Dal\\Dal\\obj\\",
+        "outputPath": "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\Dal\\Dal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\altaa\\AppData\\Roaming\\NuGet\\NuGet.Config",

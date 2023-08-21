@@ -1,0 +1,2 @@
+C:\Users\altaa\OneDrive\Desktop\Projects\ISC\Water\WaterPOC\WaterWeb\obj\Debug\WaterWeb.esproj.SuggestedBindingRedirects.cache
+C:\Users\altaa\OneDrive\Desktop\Projects\ISC\Water\WaterPOC\WaterWeb\obj\Debug\WaterWeb.esproj.CoreCompileInputs.cache

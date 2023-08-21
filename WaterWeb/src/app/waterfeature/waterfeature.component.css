@@ -1,0 +1,71 @@
+.featureSearch {
+  margin: 10px;
+  width: 100%;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-flex {
+  height: 40px !important
+}
+
+::ng-deep .mat-form-field-infix {
+  padding-top: 1px !important;
+}
+
+.search-boxes {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 15px;
+}
+
+.search {
+  border: solid 2px #a6b9ff;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.searchField {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-button {
+  border: solid 2px #a6b9ff;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 50ms ease-in-out;
+}
+
+  .search-button:hover {
+    background: #a6b9ff;
+    transition: 50ms ease-in-out;
+  }
+
+.example-container {
+  max-height: 500px;
+  min-width: 300px;
+  border: solid 2px red;
+  margin-top: 10px;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 500px;
+}
+
+
+
+.table-container {
+  margin-top: 10px;
+  min-height: 450px;
+  max-height: 450px;
+  overflow: auto;
+  border: solid 2px #a6b9ff;
+  width: 90%;
+  border-radius: 5px;
+}

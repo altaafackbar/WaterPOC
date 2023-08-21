@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8pzQR2VZ52xJOct8ZWE7Dw48UKouk4D4nKnXtf3gdhvI1rPCoSMYNcNiooAc0ZNVeTwbJYEy8Joqar8q6445WA==",
+  "dgSpecHash": "c4fnbIllSV98R+vPlYt2RLlw7eF3mEJ2oTMX9qbTqMoYg0xAviFUp/xAEzeCwTN+XIY7OGx/qcjocjIhOOp4RQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\webapi\\webapi.csproj",
+  "projectFilePath": "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\webapi\\webapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\altaa\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\altaa\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

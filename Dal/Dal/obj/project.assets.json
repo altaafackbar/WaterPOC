@@ -4136,11 +4136,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\Dal\\Dal\\Dal.csproj",
+      "projectUniqueName": "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\Dal\\Dal\\Dal.csproj",
       "projectName": "Dal",
-      "projectPath": "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\Dal\\Dal\\Dal.csproj",
+      "projectPath": "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\Dal\\Dal\\Dal.csproj",
       "packagesPath": "C:\\Users\\altaa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\altaa\\OneDrive\\Documents\\GitHub\\WaterPOC\\Dal\\Dal\\obj\\",
+      "outputPath": "C:\\Users\\altaa\\OneDrive\\Desktop\\Projects\\ISC\\Water\\WaterPOC\\Dal\\Dal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\altaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
